@@ -1,0 +1,133 @@
+.jumbotron{
+    padding-top: 12rem;
+    min-height:550px;
+    background-image: url("img/bg-jumbotron/bg1.jpg");
+    background-size: cover;
+    color: white;
+    padding-left: 3rem;
+} 
+
+.jumbotron h1{
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.media_mandiri{
+    color:rgb(112, 112, 219);
+}
+.citra{
+    color: rgb(218, 13, 13);
+    
+}
+#tentang{
+    min-height: 600px;
+    padding-top:3rem;
+        
+}
+#tentang hr{
+    margin: auto;
+    width: 250px;
+}
+
+#program_kursus{
+    min-height: 600px;
+    padding-top: 3rem;
+
+}
+#program_kursus hr{
+    margin: auto;
+    width: 250px;
+}
+
+#testimoni{
+    min-height: 600px;
+    background: url("img/testimoni/bg2.avif");
+}
+#testimoni hr{
+    margin: auto;
+    width: 250px;
+}
+
+/* style testimoni carousel */
+
+.img-text{
+    width: auto%;
+    height: 300px;
+    text-align: center;
+    padding: 40% 5%;
+    background: #262626;
+    color: #fff;
+    border-radius: 5%;
+}
+.img-text h2{
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.img-text p{
+    font-size: 14px;
+}
+.single-box{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.img-area{
+    
+    width: 200px;
+    height: 130px;
+    top: 15px;
+    margin: auto;
+    
+}
+.img-area img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+#testimoni .carousel-indicators{
+    left: 0;
+    top: auto;
+    bottom: -55px;
+}
+#testimoni .carousel-indicators button{
+    background: black;
+    border-radius: 50%;
+    width: 15px;
+    height: 5px;
+}
+#testimoni .carousel-indicators .active{
+    background: white;
+}
+
+/* akhir testimoni carousel */
+
+
+
+#galeri{
+    min-height: 400px;
+    padding-top: 3rem;
+}
+#galeri hr{
+ margin: auto;
+ width: 250px;
+}
+
+#kontak{
+    min-height: 700px;
+    margin-top: 3rem;
+    background-color: rgb(51, 50, 50);
+    color: white;
+}
+
+#kontak hr{
+    border: 1px solid white;
+}
+
+
+
+
+
+
+
+
+   
