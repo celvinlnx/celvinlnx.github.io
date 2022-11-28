@@ -1,3 +1,9 @@
+/* script menghilangkan Horizontal Scroll */
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    }
+
 .jumbotron{
     padding-top: 12rem;
     min-height:550px;
@@ -50,7 +56,7 @@
 /* style testimoni carousel */
 
 .img-text{
-    width: auto%;
+    width: auto;
     height: 300px;
     text-align: center;
     padding: 40% 5%;
