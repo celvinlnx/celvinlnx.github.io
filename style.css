@@ -60,7 +60,7 @@ html, body {
     height: 300px;
     text-align: center;
     padding: 40% 5%;
-    background: #262626;
+    background:linear-gradient(to top,rgba(14, 14, 14, 0.809),rgba(224, 230, 36, 0.678));
     color: #fff;
     border-radius: 5%;
 }
@@ -98,8 +98,8 @@ html, body {
 #testimoni .carousel-indicators button{
     background: black;
     border-radius: 50%;
-    width: 15px;
-    height: 5px;
+    width: 10px;
+    height: 1px;
 }
 #testimoni .carousel-indicators .active{
     background: white;
