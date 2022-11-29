@@ -2,6 +2,8 @@
 html, body {
     max-width: 100%;
     overflow-x: hidden;
+    background: url("img/galeri/bg-galeri.jpg");
+    background-size:150%;
     }
 
 .jumbotron{
@@ -46,7 +48,11 @@ html, body {
 
 #testimoni{
     min-height: 600px;
-    background: url("img/testimoni/bg2.avif");
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, .2); 
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, .15);
+    
+    backdrop-filter: blur(5px);
 }
 #testimoni hr{
     margin: auto;
@@ -54,64 +60,40 @@ html, body {
 }
 
 /* style testimoni carousel */
-
-.img-text{
+#testimoni .testimoni-img{
+    margin:0 1em 0 1em;
+    border-radius:100%;
+    width:150px;
+}
+#testimoni .carousel-item h4{
+    font-size: 20px;
+    line-height: 1.375em;
     width: auto;
-    height: 300px;
-    text-align: center;
-    padding: 40% 5%;
-    background:linear-gradient(to top,rgba(14, 14, 14, 0.809),rgba(224, 230, 36, 0.678));
-    color: #fff;
-    border-radius: 5%;
+    font-weight:300;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    vertical-align: middle;
+    margin: 70px 0;
 }
-.img-text h2{
-    font-size: 25px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
-.img-text p{
-    font-size: 14px;
-}
-.single-box{
-    position: relative;
-    margin-bottom: 30px;
+#testimoni .carousel-item span{
+    font-weight: bold;
 }
 
-.img-area{
-    
-    width: 200px;
-    height: 130px;
-    top: 15px;
-    margin: auto;
-    
-}
-.img-area img{
-    width: 100px;
-    border-radius: 50%;
-}
-
-#testimoni .carousel-indicators{
-    left: 0;
-    top: auto;
-    bottom: -55px;
-}
 #testimoni .carousel-indicators button{
-    background: black;
-    border-radius: 50%;
-    width: 10px;
-    height: 1px;
+    background-color: rgb(21, 14, 14);
+    border-radius: 100%;
+    height: 12px;
+    width: 15px; 
 }
 #testimoni .carousel-indicators .active{
-    background: white;
+    background-color: rgb(18, 70, 239);
 }
-
 /* akhir testimoni carousel */
 
 
 
 #galeri{
-    min-height: 400px;
-    padding-top: 3rem;
+    min-height: 1200px;
+   
 }
 #galeri hr{
  margin: auto;
@@ -119,10 +101,10 @@ html, body {
 }
 
 #kontak{
-    min-height: 700px;
-    margin-top: 3rem;
-    background-color: rgb(51, 50, 50);
+    min-height: 700px;  
+    background-color: rgba(10, 10, 10, 0.82);
     color: white;
+    backdrop-filter: blur(10px);
 }
 
 #kontak hr{
