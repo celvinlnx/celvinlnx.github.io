@@ -17,8 +17,13 @@ html, body {
 
 .jumbotron h1{
     font-weight: bold;
+    font-size: 70px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+.jumbotron p{
+    font-size: 1.25rem;
+}
+
 .media_mandiri{
     color:rgb(112, 112, 219);
 }
@@ -31,9 +36,9 @@ html, body {
     padding-top:3rem;
         
 }
-#tentang hr{
-    margin: auto;
-    width: 250px;
+
+#tentang p, ol{
+    font-size: 20px;
 }
 
 #program_kursus{
@@ -41,9 +46,9 @@ html, body {
     padding-top: 3rem;
 
 }
-#program_kursus hr{
-    margin: auto;
-    width: 250px;
+#program_kursus .card{
+    width: 18rem;
+    height: 23rem;
 }
 
 #testimoni{
@@ -54,10 +59,7 @@ html, body {
     
     backdrop-filter: blur(5px);
 }
-#testimoni hr{
-    margin: auto;
-    width: 250px;
-}
+
 
 /* style testimoni carousel */
 #testimoni .testimoni-img{
@@ -111,11 +113,127 @@ html, body {
     border: 1px solid white;
 }
 
+@media only screen and (max-width: 390px){
+
+html, body{
+    background-size:160%;
+}
+h2{
+    font-size: 30px;
+}
+.jumbotron{
+    padding-top: 8rem;
+    min-height: 380px;
+}
+.jumbotron h1{
+    font-size: 35px;
+}
+.jumbotron h2{
+    font-size: 20px;
+}
+
+.jumbotron p{
+    font-size: 12px;
+    
+}
+#tentang{
+    padding-top: 5px;
+}
+#tentang h2{
+    font-size: 30px ;
+}
+#tentang p{
+    font-size: 12px;
+}
+
+#tentang h3{
+    font-size: 25px;
+}
+#tentang h4{
+    font-size: 20px;
+}
+#tentang ol li{
+    font-size: 12px;
+    list-style-position:inside;
+    text-align: center;
+    word-spacing: 10px;
+    margin-right: 30px;
+    
+}
+
+
+#program_kursus .card{
+ width: 10rem;
+ height: 15rem;
+ margin: auto;
+ margin-left: 123px;
+ margin-bottom: 20px;
+}
+#program_kursus .card-body h5{
+    font-size: 14px;
+}
+#program_kursus .card-body p{
+    font-size: 10px;
+}
+
+#testimoni{
+    min-height: 400px;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, .2); 
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, .15);
+    
+    backdrop-filter: blur(5px);
+}
+
+
+/* style testimoni carousel */
+#testimoni .testimoni-img{
+    margin:0 1em 0 1em;
+    border-radius:100%;
+    width:90px;
+}
+#testimoni .carousel-item h4{
+    font-size: 9px;
+    line-height: 1.375em;
+    width: auto;
+    font-weight:300;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    vertical-align: middle;
+    margin: 70px 0;
+}
+#testimoni .carousel-item span{
+    font-weight: bold;
+}
+
+#testimoni .carousel-indicators button{
+    background-color: rgb(21, 14, 14);
+    border-radius: 100%;
+    height: 5px;
+    width: 5px; 
+}
+#testimoni .carousel-indicators .active{
+    background-color: rgb(18, 70, 239);
+}
+/* akhir testimoni carousel */
 
 
 
 
+#galeri{
+    min-height: 1400px;
+}
+
+#galeri .other-galeri{
+    margin: auto;
+    margin-left: 15px;
+    
+}
 
 
+#kontak h3{
+    font-size: 24px;
+}
+
+}
 
    
